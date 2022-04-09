@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Checkout Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <main>
+      <h1>payment</h1>
+    <p class="payment-methods">
+      Accepted Cards
+    </p>
+    <div class="payment-methods__card">
+      <i class="fa-brands fa-cc-visa"></i>
+      <i class="fa-brands fa-cc-mastercard"></i>
+      <i class="fa-brands fa-cc-amex"></i>
+    </div>
+    <form class="info">
+      <label for="name">Name on Card</label>
+      <input type="text" name="name-on-card" id="name-on-card" placeholder="Name on Card" />
+      <label for="ccn">Credit Card Number</label>
+      <input type="tel" name="" id="ccn" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="ccn-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" value="" />
+      <label for="month">Expiry Month</label>
+      <select name="month" id="month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+      </select>
+      <label for="ccn">CVV</label>
+      <input type="tel" name="" id="ccn" inputmode="numeric" pattern="[0-9\s]{3}" autocomplete="ccn-number" maxlength="3" placeholder="xxx" value="" />
+      <label for="year">Expiry Year</label>
+      <select name="year" id="year">
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="2028">2028</option>
+      </select>
+      <h2>Billing Address</h2>
+      <label for="Full Name"><i class="fa-solid fa-user"></i>Full Name</label>
+      <input type="text" name="" id="full name" value="" placeholder="Peter Jones" />
+      <label for="Email"><i class="fa-solid fa-envelope"></i>Email</label>
+      <input type="text" name="Email" id="Email" placeholder="peterjones@gmail.com" />
+      <label for="Address"><i class="fa-solid fa-address-card"></i>Address</label>
+      <input type="text/number" name="Address" id="Address" placeholder="No 2 wuse road" />
+      <label for="City"><i class="fa-solid fa-city"></i>City</label>
+      <input type="text" name="city" id="city" placeholder="Abuja" />
+      <label for="zip">Zip</label>
+      <input type="tel" name="zip" id="ccn" inputmode="numeric" pattern="[0-9\s]" autocomplete="ccn-number" maxlength="6" placeholder="110021" value="" />
+      <label for="state" class="state">State</label>
+      <input type="text" name="state" id="state" placeholder="Abuja" />
+      <label for="checkbox"></label>
+        <input type="checkbox" id="checkbox" />Shipping Address same as billing </label>
+      <button type="submit">Continue to checkout</button>
+    </form>
+  </main>
+</body>
+</html>

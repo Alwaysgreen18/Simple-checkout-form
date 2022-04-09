@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background: #fff;
+    box-shadow: -3px -3px 14px #f2f2f2, 3px 3px 14px rgba(94,104, 121, .5);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.payment-methods {
+    margin-bottom: 20px;
+}
+
+.payment-methods__card {
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 15px 0;
+    display: block;
+}
+
+input, select {
+    background: #fff;
+    border-style: none;
+    width: 100%;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 3px 3px 10px #bfbfbf, -3px -3px 10px #fff;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+#checkbox {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-decoration-style: none;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #bfbfbf, -3px -3px 10px #fff;
+}
+
+button:hover {
+    box-shadow: 6px 6px 10px #bfbfbf, -6px -6px 10px #fff;
+}
+
+button:active {
+    box-shadow: inset 3px 3px 10px #bfbfbf, -3px -3px 10px #fff;
+}
